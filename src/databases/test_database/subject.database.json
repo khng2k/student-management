@@ -1,0 +1,5 @@
+[
+    { "name": "Math", "code": "math" },
+    { "name": "Literature", "code": "lt" },
+    { "name": "Information Technology", "code": "it" }
+]

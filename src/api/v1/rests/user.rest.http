@@ -1,0 +1,22 @@
+### Sign in
+
+POST http://localhost:5000/v1/user/signIn
+Content-Type: application/json
+
+{
+    "username": "student001",
+    "password": "PwStudent001"
+}
+
+### Sign up Student
+POST http://localhost:5000/v1/user/student/signUp
+Content-Type: application/json
+
+{
+    "name": "Student 019",
+    "username": "student019",
+    "password": "PwStudent019",
+    "phone": "0984123019",
+    "grade": 10,
+    "idClass": "10A"
+}

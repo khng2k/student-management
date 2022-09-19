@@ -1,0 +1,673 @@
+[
+    {
+        "name": "Admin 01",
+        "username": "admin01",
+        "password": "PwAdmin01",
+        "phone": "0123456701",
+        "role": "admin",
+        "specs": []
+    },
+    {
+        "name": "Admin 02",
+        "username": "admin02",
+        "password": "PwAdmin02",
+        "phone": "0123456702",
+        "role": "admin",
+        "specs": []
+    },
+
+
+    {
+        "name": "Teacher 01",
+        "username": "teacher01",
+        "password": "PwTeacher01",
+        "phone": "0765432101",
+        "role": "teacher",
+        "specs": [
+            { "k": "Chairman", "v": "10A" },
+            { "k": "Teaching", "v": "m-10A-11A" }
+        ]
+    },
+    {
+        "name": "Teacher 02",
+        "username": "teacher02",
+        "password": "PwTeacher02",
+        "phone": "0765432102",
+        "role": "teacher",
+        "specs": [
+            { "k": "Chairman", "v": "10B" },
+            { "k": "Teaching", "v": "lt-10A-10B" }
+        ]
+    },
+    {
+        "name": "Teacher 03",
+        "username": "teacher03",
+        "password": "PwTeacher03",
+        "phone": "0765432103",
+        "role": "teacher",
+        "specs": [
+            { "k": "Chairman", "v": "10C" },
+            { "k": "Teaching", "v": "it-10B-10C" }
+        ]
+    },
+    {
+        "name": "Teacher 04",
+        "username": "teacher04",
+        "password": "PwTeacher04",
+        "phone": "0765432104",
+        "role": "teacher",
+        "specs": [
+            { "k": "Chairman", "v": "11A" },
+            { "k": "Teaching", "v": "lt-11A-11C" }
+        ]
+    },
+    {
+        "name": "Teacher 05",
+        "username": "teacher05",
+        "password": "PwTeacher05",
+        "phone": "0765432105",
+        "role": "teacher",
+        "specs": [
+            { "k": "Chairman", "v": "11B" },
+            { "k": "Teaching", "v": "m-11B-10B" }
+        ]
+    },
+    {
+        "name": "Teacher 06",
+        "username": "teacher06",
+        "password": "PwTeacher06",
+        "phone": "0765432106",
+        "role": "teacher",
+        "specs": [
+            { "k": "Chairman", "v": "11C" },
+            { "k": "Teaching", "v": "it-11B-11C" }
+        ]
+    },
+    {
+        "name": "Teacher 07",
+        "username": "teacher07",
+        "password": "PwTeacher07",
+        "phone": "0765432107",
+        "role": "teacher",
+        "specs": [
+            { "k": "Chairman", "v": "12A" },
+            { "k": "Teaching", "v": "it-11A-12A" }
+        ]
+    },
+    {
+        "name": "Teacher 08",
+        "username": "teacher08",
+        "password": "PwTeacher08",
+        "phone": "0765432108",
+        "role": "teacher",
+        "specs": [
+            { "k": "Chairman", "v": "12B" },
+            { "k": "Teaching", "v": "m-12B-12C" }
+        ]
+    },
+    {
+        "name": "Teacher 09",
+        "username": "teacher09",
+        "password": "PwTeacher09",
+        "phone": "0765432109",
+        "role": "teacher",
+        "specs": [
+            { "k": "Chairman", "v": "12C" },
+            { "k": "Teaching", "v": "lt-10C-12C" }
+        ]
+    },
+    {
+        "name": "Teacher 10",
+        "username": "teacher10",
+        "password": "PwTeacher10",
+        "phone": "0765432110",
+        "role": "teacher",
+        "specs": [
+            { "k": "Teaching", "v": "m-10C-11C-12A" }
+        ]
+    },
+    {
+        "name": "Teacher 11",
+        "username": "teacher11",
+        "password": "PwTeacher11",
+        "phone": "0765432111",
+        "role": "teacher",
+        "specs": [
+            { "k": "Teaching", "v": "lt-11B-12A-12B" }
+        ]
+    },
+    {
+        "name": "Teacher 12",
+        "username": "teacher12",
+        "password": "PwTeacher12",
+        "phone": "0765432112",
+        "role": "teacher",
+        "specs": [
+            { "k": "Teaching", "v": "it-10A-12B-12C" }
+        ]
+    },
+
+
+    {
+        "name": "Student 001",
+        "username": "student001",
+        "password": "PwStudent001",
+        "phone": "0984123001",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 10 },
+            { "k": "idClass", "v": "10A" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 002",
+        "username": "student002",
+        "password": "PwStudent002",
+        "phone": "0984123002",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 10 },
+            { "k": "idClass", "v": "10A" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 003",
+        "username": "student003",
+        "password": "PwStudent003",
+        "phone": "0984123003",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 10 },
+            { "k": "idClass", "v": "10B" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 004",
+        "username": "student004",
+        "password": "PwStudent004",
+        "phone": "0984123004",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 10 },
+            { "k": "idClass", "v": "10B" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 005",
+        "username": "student005",
+        "password": "PwStudent005",
+        "phone": "0984123005",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 10 },
+            { "k": "idClass", "v": "10C" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 006",
+        "username": "student006",
+        "password": "PwStudent006",
+        "phone": "0984123006",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 10 },
+            { "k": "idClass", "v": "10C" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 007",
+        "username": "student007",
+        "password": "PwStudent007",
+        "phone": "0984123007",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 11 },
+            { "k": "idClass", "v": "11A" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 008",
+        "username": "student008",
+        "password": "PwStudent008",
+        "phone": "0984123008",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 11 },
+            { "k": "idClass", "v": "11A" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 009",
+        "username": "student009",
+        "password": "PwStudent009",
+        "phone": "0984123009",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 11 },
+            { "k": "idClass", "v": "11B" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 010",
+        "username": "student010",
+        "password": "PwStudent010",
+        "phone": "0984123010",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 11 },
+            { "k": "idClass", "v": "11B" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 011",
+        "username": "student011",
+        "password": "PwStudent011",
+        "phone": "0984123011",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 11 },
+            { "k": "idClass", "v": "11C" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 012",
+        "username": "student012",
+        "password": "PwStudent012",
+        "phone": "0984123012",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 11 },
+            { "k": "idClass", "v": "11C" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 013",
+        "username": "student013",
+        "password": "PwStudent013",
+        "phone": "0984123013",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 12 },
+            { "k": "idClass", "v": "12A" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 014",
+        "username": "student014",
+        "password": "PwStudent014",
+        "phone": "0984123014",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 12 },
+            { "k": "idClass", "v": "12A" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 015",
+        "username": "student015",
+        "password": "PwStudent015",
+        "phone": "0984123015",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 12 },
+            { "k": "idClass", "v": "12B" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 016",
+        "username": "student016",
+        "password": "PwStudent016",
+        "phone": "0984123016",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 12 },
+            { "k": "idClass", "v": "12B" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 017",
+        "username": "student017",
+        "password": "PwStudent017",
+        "phone": "0984123017",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 12 },
+            { "k": "idClass", "v": "12C" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    },
+    {
+        "name": "Student 018",
+        "username": "student018",
+        "password": "PwStudent018",
+        "phone": "0984123018",
+        "role": "student",
+        "specs": [
+            { "k": "Grade", "v": 12 },
+            { "k": "idClass", "v": "12C" },
+            { "k": "Score", "v": {
+                "Math": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Literature": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Information Technology": {
+                    "Midterm": 0,
+                    "Endterm": 0,
+                    "average": 0
+                },
+                "Total Score": 0
+            } }
+        ]
+    }
+]

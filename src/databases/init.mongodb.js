@@ -13,6 +13,7 @@ import _Grade from '../api/v1/models/grade.model.js';
 import _Role from '../api/v1/models/role.model.js';
 import _Subject from '../api/v1/models/subject.model.js';
 import _User from '../api/v1/models/user.model.js';
+import _Score from '../api/v1/models/score.model.js';
 
 dotenv.config();
 
@@ -93,11 +94,40 @@ _User.estimatedDocumentCount(async (err, count) => {
             const hashpw = await bcrypt.hash(i.password, salt);
             i.password = hashpw;
         }
-        db.collection('Users').insertMany(dbUser, function(err) {
+        await db.collection('Users').insertMany(dbUser, function(err) {
             if (err) {
                 console.log(err);
             } else {
                 console.log("add test database of User to collection");
+            }
+        });
+        const user = await _User.find({ role: 'student' });
+        const subject = await _Subject.find({});
+        const scores = [];
+
+        for (let us of user) {
+            const score = {
+                idStudent: us.specs[0].v,
+                grade: us.specs[1].v,
+                idClass: us.specs[2].v,
+                details: []
+            };
+            for (let sub of subject) {
+                const scoreSub = {};
+                scoreSub.Subject = sub.name;
+                scoreSub.Code = sub.code;
+                scoreSub.Score = {
+                    "midterm": -1,
+                    "endterm": -1,
+                    "average": -1
+                };
+                score.details.push(scoreSub);
+            }
+            scores.push(score);
+        }
+        await db.collection('Scores').insertMany(scores, function(err) {
+            if (err) {
+                console.log(err);
             }
         });
     }

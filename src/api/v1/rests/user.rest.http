@@ -1,4 +1,4 @@
-### Sign in
+### Sign in with user student
 
 POST http://localhost:5000/v1/user/signIn
 Content-Type: application/json
@@ -8,9 +8,20 @@ Content-Type: application/json
     "password": "PwStudent001"
 }
 
+### Sign in with user teacher
+
+POST http://localhost:5000/v1/user/signIn
+Content-Type: application/json
+
+{
+    "username": "teacher01",
+    "password": "PwTeacher01"
+}
+
 ### Sign up Student
 POST http://localhost:5000/v1/user/student/signUp
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMjk3MjZkMzcxZWQ0NzJjYzIzMDI3MSIsImlhdCI6MTY2MzY2MTkyMiwiZXhwIjoxNjYzNjY0OTIyfQ.Nislrsz4dK5qCkCi_X9QrsEjDmhoOxLL_0IuI0yzsP8
 
 {
     "name": "Student 019",

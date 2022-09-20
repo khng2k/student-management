@@ -5,7 +5,9 @@
         "password": "PwAdmin01",
         "phone": "0123456701",
         "role": "admin",
-        "specs": []
+        "specs": [
+            { "k": "id", "v": "admin01" }
+        ]
     },
     {
         "name": "Admin 02",
@@ -13,7 +15,9 @@
         "password": "PwAdmin02",
         "phone": "0123456702",
         "role": "admin",
-        "specs": []
+        "specs": [
+            { "k": "id", "v": "admin02" }
+        ]
     },
 
 
@@ -24,6 +28,7 @@
         "phone": "0765432101",
         "role": "teacher",
         "specs": [
+            { "k": "idTeacher", "v": "t01" },
             { "k": "Chairman", "v": "10A" },
             { "k": "Teaching", "v": "m-10A-11A" }
         ]
@@ -35,6 +40,7 @@
         "phone": "0765432102",
         "role": "teacher",
         "specs": [
+            { "k": "idTeacher", "v": "t02" },
             { "k": "Chairman", "v": "10B" },
             { "k": "Teaching", "v": "lt-10A-10B" }
         ]
@@ -46,6 +52,7 @@
         "phone": "0765432103",
         "role": "teacher",
         "specs": [
+            { "k": "idTeacher", "v": "t03" },
             { "k": "Chairman", "v": "10C" },
             { "k": "Teaching", "v": "it-10B-10C" }
         ]
@@ -57,6 +64,7 @@
         "phone": "0765432104",
         "role": "teacher",
         "specs": [
+            { "k": "idTeacher", "v": "t04" },
             { "k": "Chairman", "v": "11A" },
             { "k": "Teaching", "v": "lt-11A-11C" }
         ]
@@ -68,6 +76,7 @@
         "phone": "0765432105",
         "role": "teacher",
         "specs": [
+            { "k": "idTeacher", "v": "t05" },
             { "k": "Chairman", "v": "11B" },
             { "k": "Teaching", "v": "m-11B-10B" }
         ]
@@ -79,6 +88,7 @@
         "phone": "0765432106",
         "role": "teacher",
         "specs": [
+            { "k": "idTeacher", "v": "t06" },
             { "k": "Chairman", "v": "11C" },
             { "k": "Teaching", "v": "it-11B-11C" }
         ]
@@ -90,6 +100,7 @@
         "phone": "0765432107",
         "role": "teacher",
         "specs": [
+            { "k": "idTeacher", "v": "t07" },
             { "k": "Chairman", "v": "12A" },
             { "k": "Teaching", "v": "it-11A-12A" }
         ]
@@ -101,6 +112,7 @@
         "phone": "0765432108",
         "role": "teacher",
         "specs": [
+            { "k": "idTeacher", "v": "t08" },
             { "k": "Chairman", "v": "12B" },
             { "k": "Teaching", "v": "m-12B-12C" }
         ]
@@ -112,6 +124,7 @@
         "phone": "0765432109",
         "role": "teacher",
         "specs": [
+            { "k": "idTeacher", "v": "t09" },
             { "k": "Chairman", "v": "12C" },
             { "k": "Teaching", "v": "lt-10C-12C" }
         ]
@@ -123,6 +136,7 @@
         "phone": "0765432110",
         "role": "teacher",
         "specs": [
+            { "k": "idTeacher", "v": "t10" },
             { "k": "Teaching", "v": "m-10C-11C-12A" }
         ]
     },
@@ -133,6 +147,7 @@
         "phone": "0765432111",
         "role": "teacher",
         "specs": [
+            { "k": "idTeacher", "v": "t11" },
             { "k": "Teaching", "v": "lt-11B-12A-12B" }
         ]
     },
@@ -143,6 +158,7 @@
         "phone": "0765432112",
         "role": "teacher",
         "specs": [
+            { "k": "idTeacher", "v": "t12" },
             { "k": "Teaching", "v": "it-10A-12B-12C" }
         ]
     },
@@ -155,26 +171,9 @@
         "phone": "0984123001",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st001" },
             { "k": "Grade", "v": 10 },
-            { "k": "idClass", "v": "10A" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "10A" }
         ]
     },
     {
@@ -184,26 +183,9 @@
         "phone": "0984123002",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st002" },
             { "k": "Grade", "v": 10 },
-            { "k": "idClass", "v": "10A" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "10A" }
         ]
     },
     {
@@ -213,26 +195,9 @@
         "phone": "0984123003",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st003" },
             { "k": "Grade", "v": 10 },
-            { "k": "idClass", "v": "10B" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "10B" }
         ]
     },
     {
@@ -242,26 +207,9 @@
         "phone": "0984123004",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st004" },
             { "k": "Grade", "v": 10 },
-            { "k": "idClass", "v": "10B" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "10B" }
         ]
     },
     {
@@ -271,26 +219,9 @@
         "phone": "0984123005",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st005" },
             { "k": "Grade", "v": 10 },
-            { "k": "idClass", "v": "10C" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "10C" }
         ]
     },
     {
@@ -300,26 +231,9 @@
         "phone": "0984123006",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st006" },
             { "k": "Grade", "v": 10 },
-            { "k": "idClass", "v": "10C" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "10C" }
         ]
     },
     {
@@ -329,26 +243,9 @@
         "phone": "0984123007",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st007" },
             { "k": "Grade", "v": 11 },
-            { "k": "idClass", "v": "11A" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "11A" }
         ]
     },
     {
@@ -358,26 +255,9 @@
         "phone": "0984123008",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st008" },
             { "k": "Grade", "v": 11 },
-            { "k": "idClass", "v": "11A" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "11A" }
         ]
     },
     {
@@ -387,26 +267,9 @@
         "phone": "0984123009",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st009" },
             { "k": "Grade", "v": 11 },
-            { "k": "idClass", "v": "11B" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "11B" }
         ]
     },
     {
@@ -416,26 +279,9 @@
         "phone": "0984123010",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st010" },
             { "k": "Grade", "v": 11 },
-            { "k": "idClass", "v": "11B" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "11B" }
         ]
     },
     {
@@ -445,26 +291,9 @@
         "phone": "0984123011",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st011" },
             { "k": "Grade", "v": 11 },
-            { "k": "idClass", "v": "11C" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "11C" }
         ]
     },
     {
@@ -474,26 +303,9 @@
         "phone": "0984123012",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st012" },
             { "k": "Grade", "v": 11 },
-            { "k": "idClass", "v": "11C" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "11C" }
         ]
     },
     {
@@ -503,26 +315,9 @@
         "phone": "0984123013",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st013" },
             { "k": "Grade", "v": 12 },
-            { "k": "idClass", "v": "12A" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "12A" }
         ]
     },
     {
@@ -532,26 +327,9 @@
         "phone": "0984123014",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st014" },
             { "k": "Grade", "v": 12 },
-            { "k": "idClass", "v": "12A" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "12A" }
         ]
     },
     {
@@ -561,26 +339,9 @@
         "phone": "0984123015",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st015" },
             { "k": "Grade", "v": 12 },
-            { "k": "idClass", "v": "12B" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "12B" }
         ]
     },
     {
@@ -590,26 +351,9 @@
         "phone": "0984123016",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st016" },
             { "k": "Grade", "v": 12 },
-            { "k": "idClass", "v": "12B" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "12B" }
         ]
     },
     {
@@ -619,26 +363,9 @@
         "phone": "0984123017",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st017" },
             { "k": "Grade", "v": 12 },
-            { "k": "idClass", "v": "12C" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "12C" }
         ]
     },
     {
@@ -648,26 +375,9 @@
         "phone": "0984123018",
         "role": "student",
         "specs": [
+            { "k": "idStudent", "v": "st018" },
             { "k": "Grade", "v": 12 },
-            { "k": "idClass", "v": "12C" },
-            { "k": "Score", "v": {
-                "Math": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Literature": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Information Technology": {
-                    "Midterm": 0,
-                    "Endterm": 0,
-                    "average": 0
-                },
-                "Total Score": 0
-            } }
+            { "k": "idClass", "v": "12C" }
         ]
     }
 ]

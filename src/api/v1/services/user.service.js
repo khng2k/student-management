@@ -2,6 +2,11 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 // Models
 import _User from '../models/user.model.js';
+import _Score from '../models/score.model.js';
+// Services
+import { scoreServices } from './score.service.js';
+// Databases
+import { db } from '../../../databases/init.mongodb.js';
 
 // Utils
 export const userServices = {
@@ -39,6 +44,7 @@ export const userServices = {
             console.log(error);
         }
     },
+
     regisStudent: async ({
         name, username, password, phone, grade, idClass
     }) => {
@@ -46,41 +52,42 @@ export const userServices = {
             // hash passwrod
             const salt = await bcrypt.genSalt(10);
             const hashPw = await bcrypt.hash(password, salt);
+
+            const users = await _User.find({role: 'student'});
+
+            let id = ''
+            const count = users.length + 1;
+            
+            if (count < 10) {
+                id = 'st00' + count.toString();
+            } else if (count >= 10 && count < 100) {
+                id = 'st0' + count.toString();
+            } else {
+                id = 'st' + count.toString();
+            }
+
             const newUser = {
                 name: name,
                 username: username,
                 password: hashPw,
                 phone: phone,
+                role: "student",
                 specs: [
+                    { "k": "idStudent", "v": id },
                     { "k": "Grade", "v": grade },
-                    { "k": "idClass", "v": idClass },
-                    { "k": "Score", "v": {
-                        "Math": {
-                            "Midterm": 0,
-                            "Endterm": 0,
-                            "average": 0
-                        },
-                        "Literature": {
-                            "Midterm": 0,
-                            "Endterm": 0,
-                            "average": 0
-                        },
-                        "Information Technology": {
-                            "Midterm": 0,
-                            "Endterm": 0,
-                            "average": 0
-                        },
-                        "Total Score": 0
-                    } }
+                    { "k": "idClass", "v": idClass }
                 ]
             };
 
             const user = await _User.create(newUser);
+            const score = await scoreServices.createTranscript({idStudent: id, grade: grade, idClass, idClass});
+            await _Score.create(score);
 
             return {
                 code: 201,
                 elements: user
             }
+
         } catch (error) {
             console.log(error);
         }

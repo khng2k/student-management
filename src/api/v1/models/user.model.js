@@ -5,6 +5,7 @@ const userSchema = new Schema({
     username: String,
     password: String,
     phone: String,
+    role: String,
     specs: []
 }, {
     collection: 'Users',

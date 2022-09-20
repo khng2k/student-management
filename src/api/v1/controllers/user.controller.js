@@ -14,6 +14,7 @@ export const userControllers = {
             next(error);
         }
     },
+    
     RegisStudent: async (req, res, next) => {
         try {
             const { name, username, password, phone, grade, idClass } = req.body;

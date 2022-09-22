@@ -32,7 +32,7 @@ export const userServices = {
             }
 
             const token = jwt.sign({id: user.id}, process.env.SECRET_ACCESS_TOKEN, {
-                expiresIn: 30
+                expiresIn: 3000
             })
 
             return {

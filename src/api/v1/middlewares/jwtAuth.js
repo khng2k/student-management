@@ -1,5 +1,4 @@
 import jwt from "jsonwebtoken";
-import dotenv from "dotenv";
 import _User from "../models/user.model.js";
 import _Role from "../models/role.model.js";
 
@@ -45,6 +44,7 @@ export const authPage = permission => {
     
             if (!user) {
                 res.status(500).send({message: "Server Error"});
+                return;
             }
     
             if(!permission.includes(user.role)){

@@ -30,7 +30,7 @@
         "specs": [
             { "k": "idTeacher", "v": "t01" },
             { "k": "Chairman", "v": "10A" },
-            { "k": "Teaching", "v": "m-10A-11A" }
+            { "k": "Teaching", "v": "math-10A-11A" }
         ]
     },
     {
@@ -78,7 +78,7 @@
         "specs": [
             { "k": "idTeacher", "v": "t05" },
             { "k": "Chairman", "v": "11B" },
-            { "k": "Teaching", "v": "m-11B-10B" }
+            { "k": "Teaching", "v": "math-11B-10B" }
         ]
     },
     {
@@ -114,7 +114,7 @@
         "specs": [
             { "k": "idTeacher", "v": "t08" },
             { "k": "Chairman", "v": "12B" },
-            { "k": "Teaching", "v": "m-12B-12C" }
+            { "k": "Teaching", "v": "math-12B-12C" }
         ]
     },
     {
@@ -137,7 +137,7 @@
         "role": "teacher",
         "specs": [
             { "k": "idTeacher", "v": "t10" },
-            { "k": "Teaching", "v": "m-10C-11C-12A" }
+            { "k": "Teaching", "v": "math-10C-11C-12A" }
         ]
     },
     {

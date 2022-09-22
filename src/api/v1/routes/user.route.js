@@ -1,6 +1,7 @@
 import express from "express";
 // Controllers
 import { userControllers } from "../controllers/user.controller.js";
+// MiddleWares
 import { authUser } from "../middlewares/authUser.js";
 import { authToken, authPage } from "../middlewares/jwtAuth.js";
 

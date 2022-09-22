@@ -1,0 +1,20 @@
+### Sign in with user teacher
+
+POST http://localhost:5000/v1/user/signIn
+Content-Type: application/json
+
+{
+    "username": "teacher01",
+    "password": "PwTeacher01"
+}
+
+
+### insert new class
+
+POST http://localhost:5000/v2/class/insert-class
+Content-Type: application/json
+
+{
+    "name": "10D",
+    "grade": 10
+}

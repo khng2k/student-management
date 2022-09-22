@@ -1,0 +1,20 @@
+### Sign in with user teacher
+
+POST http://localhost:5000/v1/user/signIn
+Content-Type: application/json
+
+{
+    "username": "teacher01",
+    "password": "PwTeacher01"
+}
+
+### Insert Score for Student
+
+POST http://localhost:5000/v2/user/st001/insert-score/math
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmMxMmQ1OTY0NmMxZDQwY2I1OWZlOSIsImlhdCI6MTY2MzgzMjk5OSwiZXhwIjoxNjYzODM1OTk5fQ._bc-ModckmRxNWcuPw8qr0tpEaCaAL7hutUUKGu40ZM
+
+{
+    "midterm": 10,
+    "endterm": 8.5
+}
